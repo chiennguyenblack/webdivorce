@@ -6,25 +6,36 @@ body {
   height: 100%;
   font-family: "Baloo Tamma 2";
   font-size: 20px;
-  color: rgb(8, 7, 7);
-  background: url("https://langgo.edu.vn/public/files/upload/default/images/bai-viet/ielts-vocabulary-tu-vung-co-ban-va-nang-cao-chu-de-gia-dinh-family2.jpg");
+  color: #fff;
+  background-image: linear-gradient(0, rgba(0, 0, 0,0.7 ), rgba(0, 0, 0,0.7)) ,
+  url("https://langgo.edu.vn/public/files/upload/default/images/bai-viet/ielts-vocabulary-tu-vung-co-ban-va-nang-cao-chu-de-gia-dinh-family2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   scroll-behavior: smooth;
 
 }
 .navbar {
-  background-color: pink !important;
+  background-color: #FF2276 !important;
   height: 80px;
   font-weight: 700;
-  text-shadow: 5px 5px 15px #fff;
 }
+/* .overlay {
+  background-color: rgba(0,0,0,0.7);
+  padding-top: 90px;
+  min-height: 300px;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+} */
 
 /* Code Multi-Tab */
 /* Tab Links */
-.nav-tabs{
-}
 
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #FF2276;
+  background-color: transparent;
+  border-color: transparent transparent #FF2276;
+}
 .tabs-cus{
   margin: 0 10px;
 }
@@ -39,7 +50,7 @@ body {
 .navbar-collapse {
   flex-grow: 0;
   z-index: 1;
-  background: pink;
+  background: #FF2276;
   padding: 10px;
 }
 
@@ -67,6 +78,9 @@ body {
   animation: growth ease-in 0.5s;
 }
 .chart-name{
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
   border: solid 1px #000;
   border-top: none;
 }
@@ -80,7 +94,11 @@ body {
       height: var(--percent);
   }
 }
-
+@media only screen and (max-width:1023px){
+  .overlay-none{
+    display: none;
+  }
+}
 .label-chart{
   border: solid 1px #000;
 }
