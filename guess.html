@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Lâm Thồn</title>
+    <!-- Import Bootstrap css, js, font awesome here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <div class=" container">
+                        <h4>Bé Lâm Thồn</h4>
+                        <h6>Website khảo sát</h6>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Trang Chu</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Du doan<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Lien He</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container mt-50">
+        <div class="row">
+            <div class="col">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link  active" href="#hihi" role="tab" data-toggle="tab"
+                            aria-selected="true">lam</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lam" role="tab" data-toggle="tab">ngu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ngu" role="tab" data-toggle="tab">vai</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lozz" role="tab" data-toggle="tab">ca</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#vai" role="tab" data-toggle="tab">lozz</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-primary" id="myBtn">Submit</button>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="container tab-content">
+        </br>
+        <div role="tabpanel" id="hihi" class=" tab-pane active">
+            <div class='row'>
+                <div class="col-10">Do u think Lam is a dumb-man?</div>
+                <div class='col-2'>
+                    <select class="form-control-sm" id="question1">
+                        <option>Yes</option>
+                        <option>Maybe</option>
+                        <option>Hope</option>
+                        <option>No</option>
+                    </select>
+                </div>
+            </div>
+            <div class='row'>
+                <div class="col-10">Do u think Lam is a dumb-man?</div>
+                <div class='col-2'>
+                    <select class="form-control-sm" id="question2">
+                        <option>Yes</option>
+                        <option>Maybe</option>
+                        <option>Hope</option>
+                        <option>No</option>
+                    </select>
+                </div>
+            </div>
+            <div class='col'>
+                <h6 id="demo"> Hihi</h6>
+
+            </div>
+        </div>
+        <div role="tabpanel" id='lam' class="tab-pane fade">
+            <div class='row'>Deoll hieu sao lam ngu v</div>
+            <div class='row'>Deoll hieu sao lam ngu v</div>
+            <div class='row'>Deoll hieu sao lam ngu v</div>
+            <div class='row'>Deoll hieu sao lam ngu v</div>
+        </div>
+        <div role="tabpanel" id='ngu' class='tab-pane fade'>
+            <div class='row'>Lam ngu ne`</div>
+            <div class='row'>Deoll hieu sao lam ngu v</div>
+            <div class='row'>Deoll hieu sao lam ngu v</div>
+            <div class='row'>Deoll hieu sao lam ngu v</div>
+        </div>
+        <div role="tabpanel" id='lozz' class='tab-pane fade'>
+            <div class='row'>Hihi Lam ngu</div>
+            <div class='row'>Deoll hieu sao lam ngu v</div>
+            <div class='row'>Deoll hieu sao lam ngu v</div>
+            <div class='row'>Deoll hieu sao lam ngu v</div>
+        </div>
+        <div role="tabpanel" id='vai' class='tab-pane fade'>
+            <div class='row'>Hihi Lam ngu qua'</div>
+            <div class='row'>Deoll hieu sao lam ngu v</div>
+            <div class='row'>Deoll hieu sao lam ngu v</div>
+            <div class='row'>Deoll hieu sao lam ngu v</div>
+            <div class='row'>Deoll hieu sao lam ngu v</div>
+        </div>
+    </div>
+    <div id="contact" class="container">
+        <hr color="#fff" class="my-4">
+        <div id="contact" class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="animation-contact col-12">
+                    <h2>Contact me</h2>
+                </div>
+                <div class="wrap-link-icon col-12 social d-flex justify-content-center">
+                    <a class="link-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="link-icon" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="link-icon" href="#"><i class="fab fa-google"></i></a>
+                    <a class="link-icon" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="link-icon" href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>&copy; C.Nine</h5>
+                        <hr color="#fff" class="my-2">
+                        <p>0343 591 643</p>
+                        <p>chiennguyen14598@gmail.com</p>
+                        <p>Le Van Viet Street, 9 District, , Vietnam</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Working hours</h5>
+                        <hr color="#fff" class="my-2">
+                        <p>Monday-Friday: 8am - 5pm</p>
+                        <p>Weekend: Play music and Dance Vina-house</p>
+                        <p>Holidays: Play the Game</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Services</h5>
+                        <hr color="#fff" class="my-2">
+                        <p>Play Game</p>
+                        <p>Website development</p>
+                        <p>Mobile applications</p>
+                    </div>
+                    <div class="col-12">
+                        <hr color="#fff" class="my-2">
+                        <h5>&copy; C.Nine</h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        // add event cho btn submit
+        var arr = [];
+        document.getElementById("myBtn").onclick = function () {
+            myFunction()
+        };
+        function myFunction() {
+            const ques = document.querySelectorAll('select');
+            for (var i = 0; i < ques.length; i++) {
+                arr[i] = ques[i].value;
+            }
+            document.getElementById("demo").innerHTML = arr;
+        }
+
+    </script>
+</body>
+
+</html>
